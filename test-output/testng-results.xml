@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="170620" started-at="2018-07-18T06:02:47Z" finished-at="2018-07-18T06:05:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="170620" started-at="2018-07-18T06:02:47Z" finished-at="2018-07-18T06:05:37Z">
+      <class name="com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test">
+        <test-method status="PASS" signature="test_setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="test_setup" is-config="true" duration-ms="75762" started-at="2018-07-18T11:32:47Z" finished-at="2018-07-18T11:34:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_setup -->
+        <test-method status="PASS" signature="changeCoverLevel_ExistingCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="changeCoverLevel_ExistingCustomer" duration-ms="32973" started-at="2018-07-18T11:34:03Z" data-provider="changeCoverLevelExistingCustomer" finished-at="2018-07-18T11:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MIP_WebPortal_TC_ChangeCoverLevel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03204084690]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PKR 400000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[The customer cover level has been updated successfully. Click here to go back]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCoverLevel_ExistingCustomer -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="after_test" is-config="true" duration-ms="1" started-at="2018-07-18T11:34:36Z" finished-at="2018-07-18T11:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCoverLevel_ExistingCustomer status=SUCCESS method=MIP_ChangeCoverLevel_Test.changeCoverLevel_ExistingCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="changeCoverLevel_ExistingCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="changeCoverLevel_ExistingCustomer" duration-ms="30742" started-at="2018-07-18T11:34:36Z" data-provider="changeCoverLevelExistingCustomer" finished-at="2018-07-18T11:35:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MIP_WebPortal_TC_ChangeCoverLevel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03020066532]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bima Accident Protection]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PKR 200000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[The customer cover level has been updated successfully. Click here to go back]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCoverLevel_ExistingCustomer -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="after_test" is-config="true" duration-ms="0" started-at="2018-07-18T11:35:06Z" finished-at="2018-07-18T11:35:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCoverLevel_ExistingCustomer status=SUCCESS method=MIP_ChangeCoverLevel_Test.changeCoverLevel_ExistingCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="changeCoverLevel_ExistingCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="changeCoverLevel_ExistingCustomer" duration-ms="30581" started-at="2018-07-18T11:35:06Z" data-provider="changeCoverLevelExistingCustomer" finished-at="2018-07-18T11:35:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MIP_WebPortal_TC_ChangeCoverLevel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03020006533]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hospitalization]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[PKR 200000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[The customer cover level has been updated successfully. Click here to go back]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCoverLevel_ExistingCustomer -->
+        <test-method status="PASS" signature="after_test(org.testng.ITestResult)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="after_test" is-config="true" duration-ms="1" started-at="2018-07-18T11:35:37Z" finished-at="2018-07-18T11:35:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeCoverLevel_ExistingCustomer status=SUCCESS method=MIP_ChangeCoverLevel_Test.changeCoverLevel_ExistingCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method status="PASS" signature="tear_down(java.lang.String)[pri:0, instance:com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test@6e1567f1]" name="tear_down" is-config="true" duration-ms="379" started-at="2018-07-18T11:35:37Z" finished-at="2018-07-18T11:35:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

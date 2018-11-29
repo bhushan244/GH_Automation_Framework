@@ -1,0 +1,1157 @@
+2018-07-17 15:56:19 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 15:57:27 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 15:57:31 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 15:57:31 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 15:57:33 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 15:57:33 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 15:57:36 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 15:57:36 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 15:57:36 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 15:57:38 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 15:57:40 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 15:57:40 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 15:57:40 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 15:57:40 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 15:57:40 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 15:57:43 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 15:57:43 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 15:57:43 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 15:57:48 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 15:57:51 INFO  MIP_CustomerManagementPage:77 - Selecting  offer Hospitalization
+2018-07-17 15:57:51 INFO  MIP_CustomerManagementPage:90 - Selected the offer Hospitalization
+2018-07-17 15:57:51 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 15:57:52 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 15:57:53 INFO  MIP_RegisterCustomerPage:64 - Selecting Bima Hospitalization Benefit Level as PKR 200,000
+2018-07-17 15:57:54 INFO  MIP_RegisterCustomerPage:68 - Selected Bima Life Hospitalization Level as PKR 200,000
+2018-07-17 15:57:54 INFO  MIP_RegisterCustomerPage:114 - Entering the customer Beneficiary information for Hospitalization:relationship=Other,fname=Mohamed,sname=usaf,age=39,ben_gender=Female,ben_msisdn=03000966542
+2018-07-17 15:57:55 INFO  MIP_RegisterCustomerPage:137 - Entered the customer Beneficiary information for Hospitalization
+2018-07-17 15:57:55 INFO  MIP_RegisterCustomerPage:293 - Getting the Coaching Program information status Register Customer Page
+2018-07-17 15:57:55 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 15:58:04 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 15:58:10 INFO  MIP_CustRegistration_Test:793 - Expected and found ben_fname:DB ben_fname=Mohamed and ben_fname=Mohamed
+2018-07-17 15:58:10 INFO  MIP_CustRegistration_Test:799 - Expected and found ben_sname:DB ben_sname=usaf and Input ben_sname=usaf
+2018-07-17 15:58:10 INFO  MIP_CustRegistration_Test:805 - Expected and found ben_age:DB ben_age=39 and Input ben_age=39
+2018-07-17 15:58:10 INFO  MIP_CustRegistration_Test:811 - Expected and found cust_relationship:DB cust_relationship=Other and Input cust_relationship=Other
+2018-07-17 15:58:10 INFO  MIP_CustRegistration_Test:820 - Expected and found ben_gender:DB ben_gender =Female and Input ben_gender=Female
+2018-07-17 15:58:10 INFO  MIP_CustRegistration_Test:827 - Expected and found ben_msisdn:DB ben_msisdn =03000966542 and Input ben_msisdn=03000966542
+2018-07-17 15:58:10 INFO  MIP_CustRegistration_Test:836 - Expected and found Created By:DB Created By=WA5 and Input Created By=WA5
+2018-07-17 15:58:10 INFO  MIP_CustRegistration_Test:841 - Expected and found Registered Date:DB Modified Date=2018-07-17 15:58:32 and Registered Date=2018-07-17
+2018-07-17 15:58:11 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 15:58:12 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 15:58:12 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 15:58:13 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 15:58:13 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 15:58:14 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 15:58:15 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 15:58:16 INFO  MIP_RegisterCustomer_Queries:136 - Executing getRegisteredProduct query
+2018-07-17 15:58:26 INFO  MIP_RegisterCustomerPage:143 - Getting Registered offer of the customer
+2018-07-17 15:58:26 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 15:58:27 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 15:58:32 INFO  MIP_CustRegistration_Test:876 - Expected and found cust_fname:DB cust_fname=Ghulam and Dashboard Customer fname=Ghulam
+2018-07-17 15:58:32 INFO  MIP_CustRegistration_Test:882 - Expected and found cust_sname:DB cust_sname=Nabi and Dashboard cust_sname=Nabi
+2018-07-17 15:58:32 INFO  MIP_CustRegistration_Test:889 - Expected and found cust_age:DB cust_age=30 and Dashboard cust_age=30
+2018-07-17 15:58:32 INFO  MIP_CustRegistration_Test:897 - Expected and found cust_dob:DB cust_age= and Dashboard cust_age=
+2018-07-17 15:58:32 INFO  MIP_CustRegistration_Test:904 - Expected and found cust_gender:DB cust_gender=Female and Dashboard cust_gender=Female
+2018-07-17 15:58:32 INFO  MIP_CustRegistration_Test:911 - Expected and found NIC:DB NIC number=2130190568009 and Dashboard cust_NIC=2130190568009
+2018-07-17 15:58:32 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 15:58:33 INFO  MIP_CustRegistration_Test:987 - Expected and found ben_fname:DB ben_fname=Mohamed and Dashboard ben_fname=Mohamed
+2018-07-17 15:58:33 INFO  MIP_CustRegistration_Test:994 - Expected and found ben_sname:DB ben_sname=usaf and Dashboard ben_sname=usaf
+2018-07-17 15:58:33 INFO  MIP_CustRegistration_Test:1001 - Expected and found ben_age:DB ben_age=39 and Dashboard ben_age=39
+2018-07-17 15:58:33 INFO  MIP_CustRegistration_Test:1008 - Expected and found cust_relationship:DB cust_relationship=Other and Dashboard cust_relationship=Other
+2018-07-17 15:58:33 INFO  MIP_CustRegistration_Test:1019 - Expected and found ben_msisdn:DB ben_msisdn=03000966542 and Dashboard ben_msisdn=03000966542
+2018-07-17 15:58:33 INFO  MIP_CustRegistration_Test:1027 - Expected and found ben_gender:DB ben_gender=Female and Dashboard ben_gender=Female
+2018-07-17 15:58:33 INFO  MIP_RegisterCustomerPage:174 - Getting Registered offer of the customer
+2018-07-17 15:58:34 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 15:58:35 INFO  MIP_RegisterCustomerPage:277 - Getting the Coaching Program information from Register Customer Page
+2018-07-17 15:58:35 INFO  MIP_RegisterCustomer_Queries:309 - Connecting to Coaching Program Database
+2018-07-17 15:58:43 INFO  MIP_RegisterCustomer_Queries:324 - Connecting Coaching Program to Database is successfull
+2018-07-17 15:58:44 INFO  MIP_RegisterCustomer_Queries:550 - Executing getCoachingProgram query
+2018-07-17 15:58:44 INFO  MIP_CustRegistration_Test:1051 - Expected and found Coaching program:DB Coaching program=Stay Healthy and Dashboard Coaching program=Stay Healthy
+2018-07-17 15:58:44 INFO  MIP_CustRegistration_Test:1057 - Expected and found Coaching program created date:DB Coaching program created date=2018-07-17 13:11:33 and Dashboard created date=17-07-2018
+2018-07-17 15:58:44 INFO  MIP_CustRegistration_Test:1071 - Expected and found Coaching program status:DB Coaching program status=Inactive and Dashboard coaching program status=Inactive
+2018-07-17 15:58:44 INFO  MIP_CustRegistration_Test:1106 - Expected and found Hospitalization benefit_level:DB benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-17 15:58:44 INFO  MIP_RegisterCustomer_Queries:203 - Executing getRegistrationSMS query
+2018-07-17 15:58:44 INFO  MIP_RegisterCustomer_Queries:207 - Connecting to SMS  Database
+2018-07-17 15:58:46 INFO  MIP_RegisterCustomer_Queries:222 - Connecting SMS to Database is successfull
+2018-07-17 15:58:46 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 15:58:46 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 15:58:47 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900001
+2018-07-17 15:58:48 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 15:58:48 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 15:58:50 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 15:58:51 INFO  MIP_CustomerManagementPage:77 - Selecting  offer Hospitalization
+2018-07-17 15:58:51 INFO  MIP_CustomerManagementPage:90 - Selected the offer Hospitalization
+2018-07-17 15:58:51 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 15:58:52 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 15:58:53 INFO  MIP_RegisterCustomerPage:64 - Selecting Bima Hospitalization Benefit Level as PKR 200,000
+2018-07-17 15:58:53 INFO  MIP_RegisterCustomerPage:68 - Selected Bima Life Hospitalization Level as PKR 200,000
+2018-07-17 15:58:53 INFO  MIP_RegisterCustomerPage:114 - Entering the customer Beneficiary information for Hospitalization:relationship=Father,fname=cheragh,sname=mushtaq,age=58,ben_gender=Male,ben_msisdn=03000966540
+2018-07-17 15:58:55 INFO  MIP_RegisterCustomerPage:137 - Entered the customer Beneficiary information for Hospitalization
+2018-07-17 15:58:55 INFO  MIP_RegisterCustomerPage:293 - Getting the Coaching Program information status Register Customer Page
+2018-07-17 15:58:55 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 15:59:03 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 15:59:07 INFO  MIP_CustRegistration_Test:793 - Expected and found ben_fname:DB ben_fname=cheragh and ben_fname=cheragh
+2018-07-17 15:59:07 INFO  MIP_CustRegistration_Test:799 - Expected and found ben_sname:DB ben_sname=mushtaq and Input ben_sname=mushtaq
+2018-07-17 15:59:07 INFO  MIP_CustRegistration_Test:805 - Expected and found ben_age:DB ben_age=58 and Input ben_age=58
+2018-07-17 15:59:07 INFO  MIP_CustRegistration_Test:811 - Expected and found cust_relationship:DB cust_relationship=Father and Input cust_relationship=Father
+2018-07-17 15:59:07 INFO  MIP_CustRegistration_Test:820 - Expected and found ben_gender:DB ben_gender =Male and Input ben_gender=Male
+2018-07-17 15:59:07 INFO  MIP_CustRegistration_Test:827 - Expected and found ben_msisdn:DB ben_msisdn =03000966540 and Input ben_msisdn=03000966540
+2018-07-17 15:59:07 INFO  MIP_CustRegistration_Test:836 - Expected and found Created By:DB Created By=WA5 and Input Created By=WA5
+2018-07-17 15:59:07 INFO  MIP_CustRegistration_Test:841 - Expected and found Registered Date:DB Modified Date=2018-07-17 15:59:32 and Registered Date=2018-07-17
+2018-07-17 15:59:08 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900001
+2018-07-17 15:59:08 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 15:59:08 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 15:59:10 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 15:59:10 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 15:59:11 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 15:59:12 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 15:59:13 INFO  MIP_RegisterCustomer_Queries:136 - Executing getRegisteredProduct query
+2018-07-17 15:59:19 INFO  MIP_RegisterCustomerPage:143 - Getting Registered offer of the customer
+2018-07-17 15:59:20 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 15:59:20 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 15:59:25 INFO  MIP_CustRegistration_Test:876 - Expected and found cust_fname:DB cust_fname=Ghulam and Dashboard Customer fname=Ghulam
+2018-07-17 15:59:25 INFO  MIP_CustRegistration_Test:882 - Expected and found cust_sname:DB cust_sname=Nabi and Dashboard cust_sname=Nabi
+2018-07-17 15:59:25 INFO  MIP_CustRegistration_Test:889 - Expected and found cust_age:DB cust_age=30 and Dashboard cust_age=30
+2018-07-17 15:59:25 INFO  MIP_CustRegistration_Test:897 - Expected and found cust_dob:DB cust_age= and Dashboard cust_age=
+2018-07-17 15:59:25 INFO  MIP_CustRegistration_Test:904 - Expected and found cust_gender:DB cust_gender=Female and Dashboard cust_gender=Female
+2018-07-17 15:59:25 INFO  MIP_CustRegistration_Test:911 - Expected and found NIC:DB NIC number=2130190568001 and Dashboard cust_NIC=2130190568001
+2018-07-17 15:59:25 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 15:59:26 INFO  MIP_CustRegistration_Test:987 - Expected and found ben_fname:DB ben_fname=cheragh and Dashboard ben_fname=cheragh
+2018-07-17 15:59:26 INFO  MIP_CustRegistration_Test:994 - Expected and found ben_sname:DB ben_sname=mushtaq and Dashboard ben_sname=mushtaq
+2018-07-17 15:59:26 INFO  MIP_CustRegistration_Test:1001 - Expected and found ben_age:DB ben_age=58 and Dashboard ben_age=58
+2018-07-17 15:59:26 INFO  MIP_CustRegistration_Test:1008 - Expected and found cust_relationship:DB cust_relationship=Father and Dashboard cust_relationship=Father
+2018-07-17 15:59:26 INFO  MIP_CustRegistration_Test:1019 - Expected and found ben_msisdn:DB ben_msisdn=03000966540 and Dashboard ben_msisdn=03000966540
+2018-07-17 15:59:26 INFO  MIP_CustRegistration_Test:1027 - Expected and found ben_gender:DB ben_gender=Male and Dashboard ben_gender=Male
+2018-07-17 15:59:26 INFO  MIP_RegisterCustomerPage:174 - Getting Registered offer of the customer
+2018-07-17 15:59:26 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 15:59:27 INFO  MIP_RegisterCustomerPage:277 - Getting the Coaching Program information from Register Customer Page
+2018-07-17 15:59:28 INFO  MIP_RegisterCustomer_Queries:309 - Connecting to Coaching Program Database
+2018-07-17 15:59:29 INFO  MIP_RegisterCustomer_Queries:324 - Connecting Coaching Program to Database is successfull
+2018-07-17 15:59:30 INFO  MIP_RegisterCustomer_Queries:550 - Executing getCoachingProgram query
+2018-07-17 15:59:30 INFO  MIP_CustRegistration_Test:1051 - Expected and found Coaching program:DB Coaching program=Stay Healthy and Dashboard Coaching program=Stay Healthy
+2018-07-17 15:59:30 INFO  MIP_CustRegistration_Test:1057 - Expected and found Coaching program created date:DB Coaching program created date=2018-07-17 12:57:36 and Dashboard created date=17-07-2018
+2018-07-17 15:59:30 INFO  MIP_CustRegistration_Test:1071 - Expected and found Coaching program status:DB Coaching program status=Inactive and Dashboard coaching program status=Inactive
+2018-07-17 15:59:30 INFO  MIP_CustRegistration_Test:1106 - Expected and found Hospitalization benefit_level:DB benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-17 15:59:30 INFO  MIP_RegisterCustomer_Queries:203 - Executing getRegistrationSMS query
+2018-07-17 15:59:30 INFO  MIP_RegisterCustomer_Queries:207 - Connecting to SMS  Database
+2018-07-17 15:59:32 INFO  MIP_RegisterCustomer_Queries:222 - Connecting SMS to Database is successfull
+2018-07-17 15:59:32 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 15:59:32 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 15:59:33 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900002
+2018-07-17 15:59:35 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 15:59:35 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 15:59:36 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 15:59:37 INFO  MIP_CustomerManagementPage:77 - Selecting  offer Hospitalization
+2018-07-17 15:59:37 INFO  MIP_CustomerManagementPage:90 - Selected the offer Hospitalization
+2018-07-17 15:59:37 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 15:59:38 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 15:59:39 INFO  MIP_RegisterCustomerPage:64 - Selecting Bima Hospitalization Benefit Level as PKR 2,000,000
+2018-07-17 15:59:39 INFO  MIP_RegisterCustomerPage:68 - Selected Bima Life Hospitalization Level as PKR 2,000,000
+2018-07-17 15:59:39 INFO  MIP_RegisterCustomerPage:114 - Entering the customer Beneficiary information for Hospitalization:relationship=Son,fname=ahmed,sname=ahmed,age=26,ben_gender=Other,ben_msisdn=03000966541
+2018-07-17 15:59:41 INFO  MIP_RegisterCustomerPage:137 - Entered the customer Beneficiary information for Hospitalization
+2018-07-17 15:59:41 INFO  MIP_RegisterCustomerPage:293 - Getting the Coaching Program information status Register Customer Page
+2018-07-17 15:59:41 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 15:59:47 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 15:59:50 INFO  MIP_CustRegistration_Test:793 - Expected and found ben_fname:DB ben_fname=ahmed and ben_fname=ahmed
+2018-07-17 15:59:50 INFO  MIP_CustRegistration_Test:799 - Expected and found ben_sname:DB ben_sname=ahmed and Input ben_sname=ahmed
+2018-07-17 15:59:50 INFO  MIP_CustRegistration_Test:805 - Expected and found ben_age:DB ben_age=26 and Input ben_age=26
+2018-07-17 15:59:50 INFO  MIP_CustRegistration_Test:811 - Expected and found cust_relationship:DB cust_relationship=Son and Input cust_relationship=Son
+2018-07-17 15:59:50 INFO  MIP_CustRegistration_Test:820 - Expected and found ben_gender:DB ben_gender =Other and Input ben_gender=Other
+2018-07-17 15:59:50 INFO  MIP_CustRegistration_Test:827 - Expected and found ben_msisdn:DB ben_msisdn =03000966541 and Input ben_msisdn=03000966541
+2018-07-17 15:59:50 INFO  MIP_CustRegistration_Test:836 - Expected and found Created By:DB Created By=WA5 and Input Created By=WA5
+2018-07-17 15:59:50 INFO  MIP_CustRegistration_Test:841 - Expected and found Registered Date:DB Modified Date=2018-07-17 16:00:18 and Registered Date=2018-07-17
+2018-07-17 15:59:51 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900002
+2018-07-17 15:59:51 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 15:59:51 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 15:59:53 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 15:59:53 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 15:59:54 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 15:59:55 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 15:59:56 INFO  MIP_RegisterCustomer_Queries:136 - Executing getRegisteredProduct query
+2018-07-17 16:00:03 INFO  MIP_RegisterCustomerPage:143 - Getting Registered offer of the customer
+2018-07-17 16:00:03 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 16:00:04 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 16:00:08 INFO  MIP_CustRegistration_Test:876 - Expected and found cust_fname:DB cust_fname=Salman and Dashboard Customer fname=Salman
+2018-07-17 16:00:08 INFO  MIP_CustRegistration_Test:882 - Expected and found cust_sname:DB cust_sname=bhatti and Dashboard cust_sname=bhatti
+2018-07-17 16:00:08 INFO  MIP_CustRegistration_Test:889 - Expected and found cust_age:DB cust_age=39 and Dashboard cust_age=39
+2018-07-17 16:00:08 INFO  MIP_CustRegistration_Test:897 - Expected and found cust_dob:DB cust_age=23/04/1979 and Dashboard cust_age=23/04/1979
+2018-07-17 16:00:08 INFO  MIP_CustRegistration_Test:904 - Expected and found cust_gender:DB cust_gender=Male and Dashboard cust_gender=Male
+2018-07-17 16:00:08 INFO  MIP_CustRegistration_Test:911 - Expected and found NIC:DB NIC number=2130190568002 and Dashboard cust_NIC=2130190568002
+2018-07-17 16:00:08 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 16:00:10 INFO  MIP_CustRegistration_Test:987 - Expected and found ben_fname:DB ben_fname=ahmed and Dashboard ben_fname=ahmed
+2018-07-17 16:00:10 INFO  MIP_CustRegistration_Test:994 - Expected and found ben_sname:DB ben_sname=ahmed and Dashboard ben_sname=ahmed
+2018-07-17 16:00:10 INFO  MIP_CustRegistration_Test:1001 - Expected and found ben_age:DB ben_age=26 and Dashboard ben_age=26
+2018-07-17 16:00:10 INFO  MIP_CustRegistration_Test:1008 - Expected and found cust_relationship:DB cust_relationship=Son and Dashboard cust_relationship=Son
+2018-07-17 16:00:10 INFO  MIP_CustRegistration_Test:1019 - Expected and found ben_msisdn:DB ben_msisdn=03000966541 and Dashboard ben_msisdn=03000966541
+2018-07-17 16:00:10 INFO  MIP_CustRegistration_Test:1027 - Expected and found ben_gender:DB ben_gender=Other and Dashboard ben_gender=Other
+2018-07-17 16:00:10 INFO  MIP_RegisterCustomerPage:174 - Getting Registered offer of the customer
+2018-07-17 16:00:10 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 16:00:11 INFO  MIP_RegisterCustomerPage:277 - Getting the Coaching Program information from Register Customer Page
+2018-07-17 16:00:12 INFO  MIP_RegisterCustomer_Queries:309 - Connecting to Coaching Program Database
+2018-07-17 16:00:13 INFO  MIP_RegisterCustomer_Queries:324 - Connecting Coaching Program to Database is successfull
+2018-07-17 16:00:14 INFO  MIP_RegisterCustomer_Queries:550 - Executing getCoachingProgram query
+2018-07-17 16:00:14 INFO  MIP_CustRegistration_Test:1051 - Expected and found Coaching program:DB Coaching program=Stay Healthy and Dashboard Coaching program=Stay Healthy
+2018-07-17 16:00:14 INFO  MIP_CustRegistration_Test:1057 - Expected and found Coaching program created date:DB Coaching program created date=2018-07-17 12:58:18 and Dashboard created date=17-07-2018
+2018-07-17 16:00:14 INFO  MIP_CustRegistration_Test:1071 - Expected and found Coaching program status:DB Coaching program status=Inactive and Dashboard coaching program status=Inactive
+2018-07-17 16:00:14 INFO  MIP_CustRegistration_Test:1106 - Expected and found Hospitalization benefit_level:DB benefit_level=2000000 and Dashboard benefit_level=PKR 2000000
+2018-07-17 16:00:14 INFO  MIP_RegisterCustomer_Queries:203 - Executing getRegistrationSMS query
+2018-07-17 16:00:14 INFO  MIP_RegisterCustomer_Queries:207 - Connecting to SMS  Database
+2018-07-17 16:00:16 INFO  MIP_RegisterCustomer_Queries:222 - Connecting SMS to Database is successfull
+2018-07-17 16:00:16 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:00:16 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:00:17 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03028989889
+2018-07-17 16:00:19 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:00:19 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:00:20 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:00:21 INFO  MIP_CustomerManagementPage:77 - Selecting  offer Hospitalization
+2018-07-17 16:00:21 INFO  MIP_CustomerManagementPage:90 - Selected the offer Hospitalization
+2018-07-17 16:00:21 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 16:00:22 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 16:00:23 INFO  MIP_RegisterCustomerPage:64 - Selecting Bima Hospitalization Benefit Level as PKR 2,000,000
+2018-07-17 16:00:24 INFO  MIP_RegisterCustomerPage:68 - Selected Bima Life Hospitalization Level as PKR 2,000,000
+2018-07-17 16:00:24 INFO  MIP_RegisterCustomerPage:114 - Entering the customer Beneficiary information for Hospitalization:relationship=Daughter,fname=sume,sname=pret,age=42,ben_gender=Female,ben_msisdn=03000966543
+2018-07-17 16:00:25 INFO  MIP_RegisterCustomerPage:137 - Entered the customer Beneficiary information for Hospitalization
+2018-07-17 16:00:25 INFO  MIP_RegisterCustomerPage:293 - Getting the Coaching Program information status Register Customer Page
+2018-07-17 16:00:25 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 16:00:30 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 16:00:33 INFO  MIP_CustRegistration_Test:793 - Expected and found ben_fname:DB ben_fname=sume and ben_fname=sume
+2018-07-17 16:00:33 INFO  MIP_CustRegistration_Test:799 - Expected and found ben_sname:DB ben_sname=pret and Input ben_sname=pret
+2018-07-17 16:00:33 INFO  MIP_CustRegistration_Test:805 - Expected and found ben_age:DB ben_age=42 and Input ben_age=42
+2018-07-17 16:00:33 INFO  MIP_CustRegistration_Test:811 - Expected and found cust_relationship:DB cust_relationship=Daughter and Input cust_relationship=Daughter
+2018-07-17 16:00:33 INFO  MIP_CustRegistration_Test:820 - Expected and found ben_gender:DB ben_gender =Female and Input ben_gender=Female
+2018-07-17 16:00:33 INFO  MIP_CustRegistration_Test:827 - Expected and found ben_msisdn:DB ben_msisdn =03000966543 and Input ben_msisdn=03000966543
+2018-07-17 16:00:33 INFO  MIP_CustRegistration_Test:836 - Expected and found Created By:DB Created By=WA5 and Input Created By=WA5
+2018-07-17 16:00:33 INFO  MIP_CustRegistration_Test:841 - Expected and found Registered Date:DB Modified Date=2018-07-17 16:01:02 and Registered Date=2018-07-17
+2018-07-17 16:00:34 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03028989889
+2018-07-17 16:00:34 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:00:34 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:00:36 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:00:36 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 16:00:37 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 16:00:38 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 16:00:39 INFO  MIP_RegisterCustomer_Queries:136 - Executing getRegisteredProduct query
+2018-07-17 16:00:46 INFO  MIP_RegisterCustomerPage:143 - Getting Registered offer of the customer
+2018-07-17 16:00:46 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 16:00:47 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 16:00:52 INFO  MIP_CustRegistration_Test:876 - Expected and found cust_fname:DB cust_fname=Sera and Dashboard Customer fname=Sera
+2018-07-17 16:00:52 INFO  MIP_CustRegistration_Test:882 - Expected and found cust_sname:DB cust_sname=bhatti and Dashboard cust_sname=bhatti
+2018-07-17 16:00:52 INFO  MIP_CustRegistration_Test:889 - Expected and found cust_age:DB cust_age=56 and Dashboard cust_age=56
+2018-07-17 16:00:52 INFO  MIP_CustRegistration_Test:897 - Expected and found cust_dob:DB cust_age= and Dashboard cust_age=
+2018-07-17 16:00:52 INFO  MIP_CustRegistration_Test:904 - Expected and found cust_gender:DB cust_gender=Female and Dashboard cust_gender=Female
+2018-07-17 16:00:52 INFO  MIP_CustRegistration_Test:911 - Expected and found NIC:DB NIC number= and Dashboard cust_NIC=
+2018-07-17 16:00:52 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 16:00:53 INFO  MIP_CustRegistration_Test:987 - Expected and found ben_fname:DB ben_fname=sume and Dashboard ben_fname=sume
+2018-07-17 16:00:53 INFO  MIP_CustRegistration_Test:994 - Expected and found ben_sname:DB ben_sname=pret and Dashboard ben_sname=pret
+2018-07-17 16:00:53 INFO  MIP_CustRegistration_Test:1001 - Expected and found ben_age:DB ben_age=42 and Dashboard ben_age=42
+2018-07-17 16:00:53 INFO  MIP_CustRegistration_Test:1008 - Expected and found cust_relationship:DB cust_relationship=Daughter and Dashboard cust_relationship=Daughter
+2018-07-17 16:00:53 INFO  MIP_CustRegistration_Test:1019 - Expected and found ben_msisdn:DB ben_msisdn=03000966543 and Dashboard ben_msisdn=03000966543
+2018-07-17 16:00:53 INFO  MIP_CustRegistration_Test:1027 - Expected and found ben_gender:DB ben_gender=Female and Dashboard ben_gender=Female
+2018-07-17 16:00:53 INFO  MIP_RegisterCustomerPage:174 - Getting Registered offer of the customer
+2018-07-17 16:00:54 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 16:00:55 INFO  MIP_RegisterCustomerPage:277 - Getting the Coaching Program information from Register Customer Page
+2018-07-17 16:00:55 INFO  MIP_RegisterCustomer_Queries:309 - Connecting to Coaching Program Database
+2018-07-17 16:00:57 INFO  MIP_RegisterCustomer_Queries:324 - Connecting Coaching Program to Database is successfull
+2018-07-17 16:00:58 INFO  MIP_RegisterCustomer_Queries:550 - Executing getCoachingProgram query
+2018-07-17 16:00:58 INFO  MIP_CustRegistration_Test:1051 - Expected and found Coaching program:DB Coaching program=Stay Healthy and Dashboard Coaching program=Stay Healthy
+2018-07-17 16:00:58 INFO  MIP_CustRegistration_Test:1057 - Expected and found Coaching program created date:DB Coaching program created date=2018-07-17 15:09:03 and Dashboard created date=17-07-2018
+2018-07-17 16:00:58 INFO  MIP_CustRegistration_Test:1071 - Expected and found Coaching program status:DB Coaching program status=Inactive and Dashboard coaching program status=Inactive
+2018-07-17 16:00:58 INFO  MIP_CustRegistration_Test:1106 - Expected and found Hospitalization benefit_level:DB benefit_level=2000000 and Dashboard benefit_level=PKR 2000000
+2018-07-17 16:00:58 INFO  MIP_RegisterCustomer_Queries:203 - Executing getRegistrationSMS query
+2018-07-17 16:00:58 INFO  MIP_RegisterCustomer_Queries:207 - Connecting to SMS  Database
+2018-07-17 16:00:59 INFO  MIP_RegisterCustomer_Queries:222 - Connecting SMS to Database is successfull
+2018-07-17 16:01:00 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:01:00 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:01:00 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-17 16:01:00 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-17 16:12:47 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 16:13:34 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 16:13:37 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 16:13:37 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 16:13:39 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 16:13:39 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 16:13:43 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 16:13:43 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 16:13:43 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 16:13:44 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 16:13:46 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 16:13:46 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 16:13:46 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:13:46 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:13:46 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 16:13:49 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 16:13:49 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:13:49 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:13:54 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:13:57 INFO  MIP_RegisterCustomerPage:143 - Getting Registered offer of the customer
+2018-07-17 16:13:57 INFO  MIP_RegisterCustomerPage:331 - Editing the customer information:fname=mush,snamebhatti,age=89,= gender=Female, dob=,custNIC=2130190968009
+2018-07-17 16:13:58 INFO  MIP_RegisterCustomerPage:362 - Edited the customer information
+2018-07-17 16:13:58 INFO  MIP_RegisterCustomerPage:369 - Editing the PA customer Beneficiary information:relationship=Mother,fname=sen,sname=potm,age=54,ben_gender=Female,ben_msisdn=03202008322
+2018-07-17 16:13:59 INFO  MIP_RegisterCustomerPage:412 - Entered the customer Beneficiary information
+2018-07-17 16:13:59 INFO  MIP_RegisterCustomerPage:420 - Editing the HP customer Beneficiary information:relationship=Sister,fname=mohamed,sname=rob,age=28,ben_gender=Male,ben_msisdn=03235200501
+2018-07-17 16:13:59 INFO  MIP_RegisterCustomerPage:464 - Entered the customer Beneficiary information
+2018-07-17 16:13:59 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 16:14:30 INFO  MIP_CustRegistration_Test:1658 - RegisterCustomer---MIP_webPortal_TC323_Customer_Registration_Change_Details Test Failed
+2018-07-17 16:14:30 INFO  MIP_CustRegistration_Test:1659 - Error occured in the test case
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: popup_message (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.milvik.mip.pageutil.MIP_BasePage.waitForElementToVisible(MIP_BasePage.java:51)
+	at com.milvik.mip.pageutil.MIP_BasePage.confirmPopUp(MIP_BasePage.java:213)
+	at com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Test.changeCustomerDetails(MIP_CustRegistration_Test.java:1186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: popup_message
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TH1554', ip: '172.16.10.115', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 28 more
+2018-07-17 16:14:30 INFO  MIP_ScreenShots:20 - Taking screen shot
+2018-07-17 16:14:30 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:14:30 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:14:30 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-17 16:14:30 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-17 16:16:32 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 16:17:40 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 16:17:44 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 16:17:44 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 16:17:46 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 16:17:46 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 16:17:50 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 16:17:50 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 16:17:50 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 16:17:51 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 16:17:53 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 16:17:53 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 16:17:53 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:17:53 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:17:53 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 16:17:56 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 16:17:56 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:17:56 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:18:02 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:18:04 INFO  MIP_RegisterCustomerPage:143 - Getting Registered offer of the customer
+2018-07-17 16:18:04 INFO  MIP_RegisterCustomerPage:331 - Editing the customer information:fname=mush,snamebhatti,age=76,= gender=Female, dob=,custNIC=2130190968009
+2018-07-17 16:18:05 INFO  MIP_RegisterCustomerPage:362 - Edited the customer information
+2018-07-17 16:18:05 INFO  MIP_RegisterCustomerPage:369 - Editing the PA customer Beneficiary information:relationship=Mother,fname=sen,sname=potm,age=54,ben_gender=Female,ben_msisdn=03202008322
+2018-07-17 16:18:07 INFO  MIP_RegisterCustomerPage:412 - Entered the customer Beneficiary information
+2018-07-17 16:18:07 INFO  MIP_RegisterCustomerPage:420 - Editing the HP customer Beneficiary information:relationship=Sister,fname=mohamed,sname=rob,age=28,ben_gender=Male,ben_msisdn=03235200501
+2018-07-17 16:18:08 INFO  MIP_RegisterCustomerPage:464 - Entered the customer Beneficiary information
+2018-07-17 16:18:08 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 16:18:39 INFO  MIP_CustRegistration_Test:1658 - RegisterCustomer---MIP_webPortal_TC323_Customer_Registration_Change_Details Test Failed
+2018-07-17 16:18:39 INFO  MIP_CustRegistration_Test:1659 - Error occured in the test case
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: popup_message (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.milvik.mip.pageutil.MIP_BasePage.waitForElementToVisible(MIP_BasePage.java:51)
+	at com.milvik.mip.pageutil.MIP_BasePage.confirmPopUp(MIP_BasePage.java:213)
+	at com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Test.changeCustomerDetails(MIP_CustRegistration_Test.java:1186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: popup_message
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TH1554', ip: '172.16.10.115', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 28 more
+2018-07-17 16:18:39 INFO  MIP_ScreenShots:20 - Taking screen shot
+2018-07-17 16:18:39 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:18:39 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:18:39 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-17 16:18:39 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-17 16:20:08 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 16:21:16 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 16:21:20 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 16:21:20 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 16:21:22 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 16:21:22 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 16:21:26 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 16:21:26 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 16:21:26 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 16:21:27 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 16:21:28 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 16:21:28 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 16:21:28 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:21:28 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:21:28 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 16:21:31 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 16:21:31 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:21:31 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:21:37 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:21:41 INFO  MIP_RegisterCustomerPage:143 - Getting Registered offer of the customer
+2018-07-17 16:21:42 INFO  MIP_RegisterCustomerPage:331 - Editing the customer information:fname=mush,snamebhatti,age=59,= gender=Female, dob=,custNIC=2130190968009
+2018-07-17 16:21:43 INFO  MIP_RegisterCustomerPage:362 - Edited the customer information
+2018-07-17 16:21:43 INFO  MIP_RegisterCustomerPage:369 - Editing the PA customer Beneficiary information:relationship=Mother,fname=sen,sname=potm,age=54,ben_gender=Female,ben_msisdn=03202008322
+2018-07-17 16:21:44 INFO  MIP_RegisterCustomerPage:412 - Entered the customer Beneficiary information
+2018-07-17 16:21:44 INFO  MIP_RegisterCustomerPage:420 - Editing the HP customer Beneficiary information:relationship=Sister,fname=mohamed,sname=rob,age=28,ben_gender=Male,ben_msisdn=03235200501
+2018-07-17 16:21:46 INFO  MIP_RegisterCustomerPage:464 - Entered the customer Beneficiary information
+2018-07-17 16:21:46 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 16:21:54 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1202 - Expected and found cust fname:DB Cust Fname=mush and Input Cust Fname=mush
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1209 - Expected and found cust_sname:DB cust_sname=bhatti and Input cust_sname=bhatti
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1216 - Expected and found  cust_age:DB cust_age=59 and Input cust_age=59
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1232 - Expected and found cust cust_gender:DB cust_gender=Female and Input cust_gender=Female
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1242 - Expected and found ben_fname:DB ben_fname=sen and ben_fname=sen
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1250 - Expected and found ben_sname:DB ben_sname=potm and Input ben_sname=potm
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1258 - Expected and found ben_age:DB ben_age=54 and Input ben_age=54
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1265 - Expected and found cust_relationship:DB cust_relationship=Mother and Input cust_relationship=Mother
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1275 - Expected and found ben_gender:DB ben_gender =Female and Input ben_gender=Female
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1284 - Expected and found ben_msisdn:DB ben_msisdn =03202008322 and Input ben_msisdn=03202008322
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1296 - Expected and found ben_fname:DB ben_fname=mohamed and ben_fname=mohamed
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1304 - Expected and found ben_sname:DB ben_sname=rob and Input ben_sname=rob
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1312 - Expected and found ben_age:DB ben_age=28 and Input ben_age=28
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1320 - Expected and found cust_relationship:DB cust_relationship=Sister and Input cust_relationship=Sister
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1332 - Expected and found ben_gender:DB ben_gender =Male and Input ben_gender=Male
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1341 - Expected and found ben_msisdn:DB ben_msisdn =03235200501 and Input ben_msisdn=03235200501
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1351 - Expected and found NIC:DB NIC number=2130190968009 and Input cust_NIC=2130190968009
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1358 - Expected and found Created By:DB Created By=WA5 and Input Created By=WA5
+2018-07-17 16:22:01 INFO  MIP_CustRegistration_Test:1363 - Expected and found Registered Date:DB Modified Date=2018-07-17 16:22:23 and Registered Date=2018-07-17
+2018-07-17 16:22:02 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 16:22:03 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:22:03 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:22:05 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:22:05 INFO  MIP_RegisterCustomer_Queries:136 - Executing getRegisteredProduct query
+2018-07-17 16:22:14 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 16:22:15 INFO  MIP_CustRegistration_Test:1379 - Expected and found cust_fname:DB cust_fname=mush and Dashboard Customer fname=mush
+2018-07-17 16:22:15 INFO  MIP_CustRegistration_Test:1385 - Expected and found cust_sname:DB cust_sname=bhatti and Dashboard cust_sname=bhatti
+2018-07-17 16:22:15 INFO  MIP_CustRegistration_Test:1392 - Expected and found cust_age:DB cust_age=59 and Dashboard cust_age=59
+2018-07-17 16:22:15 INFO  MIP_CustRegistration_Test:1407 - Expected and found cust_gender:DB cust_gender=Female and Dashboard cust_gender=Female
+2018-07-17 16:22:15 INFO  MIP_CustRegistration_Test:1414 - Expected and found NIC:DB NIC number=2130190968009 and Dashboard cust_NIC=2130190968009
+2018-07-17 16:22:15 INFO  MIP_RegisterCustomerPage:174 - Getting Registered offer of the customer
+2018-07-17 16:22:16 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 16:22:17 INFO  MIP_CustRegistration_Test:1429 - Expected and found ben_fname:DB ben_fname=sen and Dashboard ben_fname=sen
+2018-07-17 16:22:17 INFO  MIP_CustRegistration_Test:1435 - Expected and found ben_sname:DB ben_sname=potm and Dashboard ben_sname=potm
+2018-07-17 16:22:17 INFO  MIP_CustRegistration_Test:1441 - Expected and found ben_age:DB ben_age=54 and Dashboard ben_age=54
+2018-07-17 16:22:17 INFO  MIP_CustRegistration_Test:1447 - Expected and found cust_relationship:DB cust_relationship=Mother and Dashboard cust_relationship=Mother
+2018-07-17 16:22:17 INFO  MIP_CustRegistration_Test:1456 - Expected and found ben_msisdn:DB ben_msisdn=03202008322 and Dashboard ben_msisdn=03202008322
+2018-07-17 16:22:17 INFO  MIP_CustRegistration_Test:1462 - Expected and found ben_gender:DB ben_gender=Female and Dashboard ben_gender=Female
+2018-07-17 16:22:17 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 16:22:18 INFO  MIP_CustRegistration_Test:1472 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-17 16:22:18 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 16:22:19 INFO  MIP_CustRegistration_Test:1487 - Expected and found ben_fname:DB ben_fname=mohamed and Dashboard ben_fname=mohamed
+2018-07-17 16:22:19 INFO  MIP_CustRegistration_Test:1494 - Expected and found ben_sname:DB ben_sname=rob and Dashboard ben_sname=rob
+2018-07-17 16:22:19 INFO  MIP_CustRegistration_Test:1501 - Expected and found ben_age:DB ben_age=28 and Dashboard ben_age=28
+2018-07-17 16:22:19 INFO  MIP_CustRegistration_Test:1508 - Expected and found cust_relationship:DB cust_relationship=Sister and Dashboard cust_relationship=Sister
+2018-07-17 16:22:19 INFO  MIP_CustRegistration_Test:1519 - Expected and found ben_msisdn:DB ben_msisdn=03235200501 and Dashboard ben_msisdn=03235200501
+2018-07-17 16:22:19 INFO  MIP_CustRegistration_Test:1527 - Expected and found ben_gender:DB ben_gender=Male and Dashboard ben_gender=Male
+2018-07-17 16:22:19 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 16:22:20 INFO  MIP_CustRegistration_Test:1538 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-17 16:22:20 INFO  MIP_RegisterCustomerPage:277 - Getting the Coaching Program information from Register Customer Page
+2018-07-17 16:22:20 INFO  MIP_RegisterCustomer_Queries:309 - Connecting to Coaching Program Database
+2018-07-17 16:22:22 INFO  MIP_RegisterCustomer_Queries:324 - Connecting Coaching Program to Database is successfull
+2018-07-17 16:22:23 INFO  MIP_CustRegistration_Test:1658 - RegisterCustomer---MIP_webPortal_TC323_Customer_Registration_Change_Details Test Failed
+2018-07-17 16:22:23 INFO  MIP_CustRegistration_Test:1659 - Error occured in the test case
+java.lang.AssertionError: expected [0] but found [1]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.milvik.mip.dbqueries.MIP_RegisterCustomer_Queries.getCoachingProgramInfo(MIP_RegisterCustomer_Queries.java:426)
+	at com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Test.changeCustomerDetails(MIP_CustRegistration_Test.java:1555)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-07-17 16:22:23 INFO  MIP_ScreenShots:20 - Taking screen shot
+2018-07-17 16:22:23 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:22:23 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:22:23 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-17 16:22:23 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-17 16:25:27 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 16:26:15 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 16:26:18 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 16:26:18 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 16:26:20 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 16:26:20 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 16:26:43 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 16:26:43 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 16:26:43 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 16:26:44 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 16:26:45 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 16:26:45 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 16:26:45 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:26:45 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:26:45 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 16:26:49 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 16:26:49 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:26:49 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:26:54 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:26:54 INFO  MIP_RegisterCustomerPage:143 - Getting Registered offer of the customer
+2018-07-17 16:26:54 INFO  MIP_RegisterCustomerPage:331 - Editing the customer information:fname=mohamed,snamegen,age=58,= gender=Male, dob=,custNIC=2130190008009
+2018-07-17 16:26:55 INFO  MIP_RegisterCustomerPage:362 - Edited the customer information
+2018-07-17 16:26:55 INFO  MIP_RegisterCustomerPage:369 - Editing the PA customer Beneficiary information:relationship=Sister,fname=don,sname=mom,age=55,ben_gender=Male,ben_msisdn=03202008323
+2018-07-17 16:26:56 INFO  MIP_RegisterCustomerPage:412 - Entered the customer Beneficiary information
+2018-07-17 16:26:56 INFO  MIP_RegisterCustomerPage:420 - Editing the HP customer Beneficiary information:relationship=Brother,fname=fathim,sname=begam,age=29,ben_gender=Female,ben_msisdn=03235200500
+2018-07-17 16:26:57 INFO  MIP_RegisterCustomerPage:464 - Entered the customer Beneficiary information
+2018-07-17 16:26:57 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 16:27:03 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1202 - Expected and found cust fname:DB Cust Fname=mohamed and Input Cust Fname=mohamed
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1209 - Expected and found cust_sname:DB cust_sname=gen and Input cust_sname=gen
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1216 - Expected and found  cust_age:DB cust_age=58 and Input cust_age=58
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1232 - Expected and found cust cust_gender:DB cust_gender=Male and Input cust_gender=Male
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1242 - Expected and found ben_fname:DB ben_fname=don and ben_fname=don
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1250 - Expected and found ben_sname:DB ben_sname=mom and Input ben_sname=mom
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1258 - Expected and found ben_age:DB ben_age=55 and Input ben_age=55
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1265 - Expected and found cust_relationship:DB cust_relationship=Sister and Input cust_relationship=Sister
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1275 - Expected and found ben_gender:DB ben_gender =Male and Input ben_gender=Male
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1284 - Expected and found ben_msisdn:DB ben_msisdn =03202008323 and Input ben_msisdn=03202008323
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1296 - Expected and found ben_fname:DB ben_fname=fathim and ben_fname=fathim
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1304 - Expected and found ben_sname:DB ben_sname=begam and Input ben_sname=begam
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1312 - Expected and found ben_age:DB ben_age=29 and Input ben_age=29
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1320 - Expected and found cust_relationship:DB cust_relationship=Brother and Input cust_relationship=Brother
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1332 - Expected and found ben_gender:DB ben_gender =Female and Input ben_gender=Female
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1341 - Expected and found ben_msisdn:DB ben_msisdn =03235200500 and Input ben_msisdn=03235200500
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1351 - Expected and found NIC:DB NIC number=2130190008009 and Input cust_NIC=2130190008009
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1358 - Expected and found Created By:DB Created By=WA5 and Input Created By=WA5
+2018-07-17 16:27:09 INFO  MIP_CustRegistration_Test:1363 - Expected and found Registered Date:DB Modified Date=2018-07-17 16:27:34 and Registered Date=2018-07-17
+2018-07-17 16:27:10 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 16:27:10 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:27:10 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:27:11 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:27:11 INFO  MIP_RegisterCustomer_Queries:136 - Executing getRegisteredProduct query
+2018-07-17 16:27:21 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1379 - Expected and found cust_fname:DB cust_fname=mohamed and Dashboard Customer fname=mohamed
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1385 - Expected and found cust_sname:DB cust_sname=gen and Dashboard cust_sname=gen
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1392 - Expected and found cust_age:DB cust_age=58 and Dashboard cust_age=58
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1407 - Expected and found cust_gender:DB cust_gender=Male and Dashboard cust_gender=Male
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1414 - Expected and found NIC:DB NIC number=2130190008009 and Dashboard cust_NIC=2130190008009
+2018-07-17 16:27:21 INFO  MIP_RegisterCustomerPage:174 - Getting Registered offer of the customer
+2018-07-17 16:27:21 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1429 - Expected and found ben_fname:DB ben_fname=don and Dashboard ben_fname=don
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1435 - Expected and found ben_sname:DB ben_sname=mom and Dashboard ben_sname=mom
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1441 - Expected and found ben_age:DB ben_age=55 and Dashboard ben_age=55
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1447 - Expected and found cust_relationship:DB cust_relationship=Sister and Dashboard cust_relationship=Sister
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1456 - Expected and found ben_msisdn:DB ben_msisdn=03202008323 and Dashboard ben_msisdn=03202008323
+2018-07-17 16:27:21 INFO  MIP_CustRegistration_Test:1462 - Expected and found ben_gender:DB ben_gender=Male and Dashboard ben_gender=Male
+2018-07-17 16:27:21 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 16:27:23 INFO  MIP_CustRegistration_Test:1472 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-17 16:27:23 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 16:27:23 INFO  MIP_CustRegistration_Test:1487 - Expected and found ben_fname:DB ben_fname=fathim and Dashboard ben_fname=fathim
+2018-07-17 16:27:23 INFO  MIP_CustRegistration_Test:1494 - Expected and found ben_sname:DB ben_sname=begam and Dashboard ben_sname=begam
+2018-07-17 16:27:23 INFO  MIP_CustRegistration_Test:1501 - Expected and found ben_age:DB ben_age=29 and Dashboard ben_age=29
+2018-07-17 16:27:23 INFO  MIP_CustRegistration_Test:1508 - Expected and found cust_relationship:DB cust_relationship=Brother and Dashboard cust_relationship=Brother
+2018-07-17 16:27:23 INFO  MIP_CustRegistration_Test:1519 - Expected and found ben_msisdn:DB ben_msisdn=03235200500 and Dashboard ben_msisdn=03235200500
+2018-07-17 16:27:23 INFO  MIP_CustRegistration_Test:1527 - Expected and found ben_gender:DB ben_gender=Female and Dashboard ben_gender=Female
+2018-07-17 16:27:23 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 16:27:24 INFO  MIP_CustRegistration_Test:1538 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-17 16:27:24 INFO  MIP_RegisterCustomerPage:277 - Getting the Coaching Program information from Register Customer Page
+2018-07-17 16:27:24 INFO  MIP_RegisterCustomer_Queries:309 - Connecting to Coaching Program Database
+2018-07-17 16:27:26 INFO  MIP_RegisterCustomer_Queries:324 - Connecting Coaching Program to Database is successfull
+2018-07-17 16:27:27 INFO  MIP_RegisterCustomer_Queries:550 - Executing getCoachingProgram query
+2018-07-17 16:27:27 INFO  MIP_CustRegistration_Test:1559 - Expected and found Coaching program:DB Coaching program=Stay Healthy and Dashboard Coaching program=Stay Healthy
+2018-07-17 16:27:27 INFO  MIP_CustRegistration_Test:1565 - Expected and found Coaching program created date:DB Coaching program created date=2018-07-17 13:11:33 and Dashboard created date=17-07-2018
+2018-07-17 16:27:27 INFO  MIP_CustRegistration_Test:1578 - Expected and found Coaching program status:DB Coaching program status=Inactive and Dashboard coaching program status=Inactive
+2018-07-17 16:27:27 INFO  MIP_RegisterCustomer_Queries:566 - Executing getUser query
+2018-07-17 16:27:27 INFO  MIP_CustRegistration_Test:1593 - Expected and found Coaching program created BY:DB Coaching program created by=WA5 and Input user=WA5
+2018-07-17 16:27:27 INFO  MIP_RegisterCustomer_Queries:566 - Executing getUser query
+2018-07-17 16:27:27 INFO  MIP_CustRegistration_Test:1600 - Expected and found Coaching program is_eligible:DB Coaching program is_eligible=0 and expected is_eligible0
+2018-07-17 16:27:27 INFO  MIP_CustRegistration_Test:1607 - Expected and found Coaching program selection date:DB Coaching program selection date=2018-07-17 13:11:33 and expected program selection date2018-07-17
+2018-07-17 16:27:27 INFO  MIP_CustRegistration_Test:1615 - Expected and found Coaching program modified date:DB Coaching program modified date=2018-07-17 15:55:31 and expected CP program modified date
+2018-07-17 16:27:27 INFO  MIP_CustRegistration_Test:1658 - RegisterCustomer---MIP_webPortal_TC323_Customer_Registration_Change_Details Test Failed
+2018-07-17 16:27:27 INFO  MIP_CustRegistration_Test:1659 - Error occured in the test case
+java.lang.AssertionError: expected [] but found [2018-07-17 15:55:31]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.milvik.mip.customermanagement.testrunner.MIP_CustRegistration_Test.changeCustomerDetails(MIP_CustRegistration_Test.java:1619)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-07-17 16:27:27 INFO  MIP_ScreenShots:20 - Taking screen shot
+2018-07-17 16:27:28 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:27:28 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:27:28 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-17 16:27:28 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-17 16:31:06 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 16:32:14 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 16:32:18 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 16:32:18 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 16:32:20 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 16:32:20 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 16:32:24 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 16:32:24 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 16:32:24 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 16:32:25 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 16:32:27 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 16:32:27 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 16:32:27 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:32:27 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:32:27 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 16:32:30 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 16:32:30 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:32:30 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:32:36 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:32:38 INFO  MIP_RegisterCustomerPage:143 - Getting Registered offer of the customer
+2018-07-17 16:32:38 INFO  MIP_RegisterCustomerPage:331 - Editing the customer information:fname=husan,snameraj,age=54,= gender=Female, dob=,custNIC=2130190000009
+2018-07-17 16:32:39 INFO  MIP_RegisterCustomerPage:362 - Edited the customer information
+2018-07-17 16:32:39 INFO  MIP_RegisterCustomerPage:369 - Editing the PA customer Beneficiary information:relationship=Mother,fname=boun,sname=cook,age=41,ben_gender=Female,ben_msisdn=03200008323
+2018-07-17 16:32:41 INFO  MIP_RegisterCustomerPage:412 - Entered the customer Beneficiary information
+2018-07-17 16:32:41 INFO  MIP_RegisterCustomerPage:420 - Editing the HP customer Beneficiary information:relationship=Father,fname=mohamed,sname=begum,age=23,ben_gender=Male,ben_msisdn=03235200501
+2018-07-17 16:32:42 INFO  MIP_RegisterCustomerPage:464 - Entered the customer Beneficiary information
+2018-07-17 16:32:42 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 16:32:47 INFO  MIP_RegisterCustomer_Queries:32 - Executing getCustomerDetails query
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1202 - Expected and found cust fname:DB Cust Fname=husan and Input Cust Fname=husan
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1209 - Expected and found cust_sname:DB cust_sname=raj and Input cust_sname=raj
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1216 - Expected and found  cust_age:DB cust_age=54 and Input cust_age=54
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1232 - Expected and found cust cust_gender:DB cust_gender=Female and Input cust_gender=Female
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1242 - Expected and found ben_fname:DB ben_fname=boun and ben_fname=boun
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1250 - Expected and found ben_sname:DB ben_sname=cook and Input ben_sname=cook
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1258 - Expected and found ben_age:DB ben_age=41 and Input ben_age=41
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1265 - Expected and found cust_relationship:DB cust_relationship=Mother and Input cust_relationship=Mother
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1275 - Expected and found ben_gender:DB ben_gender =Female and Input ben_gender=Female
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1284 - Expected and found ben_msisdn:DB ben_msisdn =03200008323 and Input ben_msisdn=03200008323
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1296 - Expected and found ben_fname:DB ben_fname=mohamed and ben_fname=mohamed
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1304 - Expected and found ben_sname:DB ben_sname=begum and Input ben_sname=begum
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1312 - Expected and found ben_age:DB ben_age=23 and Input ben_age=23
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1320 - Expected and found cust_relationship:DB cust_relationship=Father and Input cust_relationship=Father
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1332 - Expected and found ben_gender:DB ben_gender =Male and Input ben_gender=Male
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1341 - Expected and found ben_msisdn:DB ben_msisdn =03235200501 and Input ben_msisdn=03235200501
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1351 - Expected and found NIC:DB NIC number=2130190000009 and Input cust_NIC=2130190000009
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1358 - Expected and found Created By:DB Created By=WA5 and Input Created By=WA5
+2018-07-17 16:32:53 INFO  MIP_CustRegistration_Test:1363 - Expected and found Registered Date:DB Modified Date=2018-07-17 16:33:20 and Registered Date=2018-07-17
+2018-07-17 16:32:55 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03000900009
+2018-07-17 16:32:55 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:32:55 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:32:56 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:32:56 INFO  MIP_RegisterCustomer_Queries:136 - Executing getRegisteredProduct query
+2018-07-17 16:33:07 INFO  MIP_RegisterCustomerPage:205 - Getting the customer information from Register Customer Page
+2018-07-17 16:33:08 INFO  MIP_CustRegistration_Test:1379 - Expected and found cust_fname:DB cust_fname=husan and Dashboard Customer fname=husan
+2018-07-17 16:33:08 INFO  MIP_CustRegistration_Test:1385 - Expected and found cust_sname:DB cust_sname=raj and Dashboard cust_sname=raj
+2018-07-17 16:33:08 INFO  MIP_CustRegistration_Test:1392 - Expected and found cust_age:DB cust_age=54 and Dashboard cust_age=54
+2018-07-17 16:33:08 INFO  MIP_CustRegistration_Test:1407 - Expected and found cust_gender:DB cust_gender=Female and Dashboard cust_gender=Female
+2018-07-17 16:33:08 INFO  MIP_CustRegistration_Test:1414 - Expected and found NIC:DB NIC number=2130190000009 and Dashboard cust_NIC=2130190000009
+2018-07-17 16:33:08 INFO  MIP_RegisterCustomerPage:174 - Getting Registered offer of the customer
+2018-07-17 16:33:09 INFO  MIP_RegisterCustomerPage:227 - Getting the Accident protection Beneficiary information from Register Customer Page
+2018-07-17 16:33:10 INFO  MIP_CustRegistration_Test:1429 - Expected and found ben_fname:DB ben_fname=boun and Dashboard ben_fname=boun
+2018-07-17 16:33:10 INFO  MIP_CustRegistration_Test:1435 - Expected and found ben_sname:DB ben_sname=cook and Dashboard ben_sname=cook
+2018-07-17 16:33:10 INFO  MIP_CustRegistration_Test:1441 - Expected and found ben_age:DB ben_age=41 and Dashboard ben_age=41
+2018-07-17 16:33:10 INFO  MIP_CustRegistration_Test:1447 - Expected and found cust_relationship:DB cust_relationship=Mother and Dashboard cust_relationship=Mother
+2018-07-17 16:33:10 INFO  MIP_CustRegistration_Test:1456 - Expected and found ben_msisdn:DB ben_msisdn=03200008323 and Dashboard ben_msisdn=03200008323
+2018-07-17 16:33:10 INFO  MIP_CustRegistration_Test:1462 - Expected and found ben_gender:DB ben_gender=Female and Dashboard ben_gender=Female
+2018-07-17 16:33:10 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 16:33:12 INFO  MIP_CustRegistration_Test:1472 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-17 16:33:12 INFO  MIP_RegisterCustomerPage:253 - Getting the Hospitalization Beneficiary information from Register Customer Page
+2018-07-17 16:33:13 INFO  MIP_CustRegistration_Test:1487 - Expected and found ben_fname:DB ben_fname=mohamed and Dashboard ben_fname=mohamed
+2018-07-17 16:33:13 INFO  MIP_CustRegistration_Test:1494 - Expected and found ben_sname:DB ben_sname=begum and Dashboard ben_sname=begum
+2018-07-17 16:33:13 INFO  MIP_CustRegistration_Test:1501 - Expected and found ben_age:DB ben_age=23 and Dashboard ben_age=23
+2018-07-17 16:33:13 INFO  MIP_CustRegistration_Test:1508 - Expected and found cust_relationship:DB cust_relationship=Father and Dashboard cust_relationship=Father
+2018-07-17 16:33:13 INFO  MIP_CustRegistration_Test:1519 - Expected and found ben_msisdn:DB ben_msisdn=03235200501 and Dashboard ben_msisdn=03235200501
+2018-07-17 16:33:13 INFO  MIP_CustRegistration_Test:1527 - Expected and found ben_gender:DB ben_gender=Male and Dashboard ben_gender=Male
+2018-07-17 16:33:13 INFO  MIP_RegisterCustomer_Queries:157 - Executing getOfferCover query
+2018-07-17 16:33:14 INFO  MIP_CustRegistration_Test:1538 - Expected and found life benefit_level:Input benefit_level=200000 and Dashboard benefit_level=PKR 200000
+2018-07-17 16:33:14 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:33:14 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:33:14 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-17 16:33:14 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-17 16:42:34 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 16:43:20 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 16:43:24 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 16:43:24 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 16:43:26 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 16:43:26 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 16:43:30 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 16:43:30 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 16:43:30 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 16:43:32 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 16:43:33 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 16:43:33 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 16:43:33 INFO  MIP_HomePage:73 - Clicking on Menu Register Customer
+2018-07-17 16:43:33 INFO  MIP_HomePage:79 - Clicked on Menu Register Customer
+2018-07-17 16:43:36 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03028987987
+2018-07-17 16:43:36 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 16:43:36 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 16:43:41 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 16:43:46 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 16:43:47 INFO  MIP_CustRegistration_Test:1584 - Expected and found validation message: Expected=First Name  :  Field should not be empty. Surname  :  Field should not be empty. Gender : Please choose a value from the Drop down. Age  :  Field should not be empty. Available Offers  :  Please select a CheckBox. Found=First Name  :  Field should not be empty.Surname  :  Field should not be empty.Gender : Please choose a value from the Drop down.Age  :  Field should not be empty.Available Offers  :  Please select a CheckBox.
+2018-07-17 16:43:47 INFO  MIP_CustomerManagementPage:77 - Selecting  offer Bima Accident Protection
+2018-07-17 16:43:47 INFO  MIP_CustomerManagementPage:90 - Selected the offer Bima Accident Protection
+2018-07-17 16:43:47 INFO  MIP_CustomerManagementPage:77 - Selecting  offer Hospitalization
+2018-07-17 16:43:48 INFO  MIP_CustomerManagementPage:90 - Selected the offer Hospitalization
+2018-07-17 16:43:48 INFO  MIP_CustomerManagementPage:116 - Clicking on Save button in Customer Registration page
+2018-07-17 16:43:49 INFO  MIP_CustRegistration_Test:1592 - Expected and found validation message: Expected=First Name  :  Field should not be empty. Surname  :  Field should not be empty. Gender : Please choose a value from the Drop down. Age  :  Field should not be empty. Life Benefit Level  :  Please choose a value from the Drop down. Beneficiary Name  :  Field should not be empty. Beneficiary Surname  :  Field should not be empty. Beneficiary Age  :  Field should not be empty. Relationship with Customer : Please choose a value from the Drop down. Beneficiary Gender : Please choose a value from the Drop down. Beneficiary MSISDN  :  Field should not be empty. HP Benefit Level  :  Please choose a value from the Drop down. Beneficiary Name  :  Field should not be empty. Beneficiary Surname  :  Field should not be empty. Beneficiary Age  :  Field should not be empty. Relationship with Customer : Please choose a value from the Drop down. Beneficiary Gender : Please choose a value from the Drop down. Beneficiary MSISDN  :  Field should not be empty. Found=First Name  :  Field should not be empty.Surname  :  Field should not be empty.Gender : Please choose a value from the Drop down.Age  :  Field should not be empty.Life Benefit Level  :  Please choose a value from the Drop down.Beneficiary Name  :  Field should not be empty.Beneficiary Surname  :  Field should not be empty.Beneficiary Age  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Beneficiary Gender : Please choose a value from the Drop down.Beneficiary MSISDN  :  Field should not be empty.HP Benefit Level  :  Please choose a value from the Drop down.Beneficiary Name  :  Field should not be empty.Beneficiary Surname  :  Field should not be empty.Beneficiary Age  :  Field should not be empty.Relationship with Customer : Please choose a value from the Drop down.Beneficiary Gender : Please choose a value from the Drop down.Beneficiary MSISDN  :  Field should not be empty.
+2018-07-17 16:43:49 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-17 16:43:49 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-17 17:50:59 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 17:51:46 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 17:51:49 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 17:51:49 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 17:51:51 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 17:51:51 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 17:51:55 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 17:51:55 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 17:51:55 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 17:51:57 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 17:51:58 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 17:51:58 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 17:51:58 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 17:51:59 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 17:51:59 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 17:51:59 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 17:51:59 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 17:52:00 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-17 17:52:00 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 17:52:00 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 17:52:00 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 17:52:12 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-17 17:52:14 INFO  MIP_ChangeCoverLevelPage:84 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-17 17:52:15 INFO  MIP_CustomerManagementPage:153 - Clicking on Save Changes button
+2018-07-17 17:52:20 INFO  MIP_CustomerManagementPage:155 - Clicked on Save Changes button
+2018-07-17 17:52:24 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-17 17:52:24 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 17:52:24 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 17:52:24 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 17:52:24 INFO  MIP_ChangeCoverLevelPage:107 - Getting Bima Accident protection cover level info in Update Cover Level Page
+2018-07-17 17:52:27 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-17 17:52:29 INFO  MIP_ChangeCoverLevel_Test:1086 - RegisterCustomer---MIP_WebPortal_TC_ChangeCoverLevel--03035454554 Test Failed
+2018-07-17 17:52:29 INFO  MIP_ChangeCoverLevel_Test:1087 - Error occured in the test case
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotEquals(Assert.java:897)
+	at org.testng.Assert.assertNotEquals(Assert.java:902)
+	at com.milvik.mip.customermanagement.testrunner.MIP_ChangeCoverLevel_Test.changeCoverLevel(MIP_ChangeCoverLevel_Test.java:944)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-07-17 17:52:29 INFO  MIP_ScreenShots:20 - Taking screen shot
+2018-07-17 17:52:29 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 17:52:29 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 17:52:29 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-17 17:52:29 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-17 17:54:12 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 17:54:38 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 17:54:41 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 17:54:41 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 17:54:43 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 17:54:43 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 17:54:48 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 17:54:48 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 17:54:48 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 17:54:49 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 17:54:50 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 17:54:50 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 17:54:50 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 17:54:51 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 17:54:51 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 17:54:51 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 17:54:51 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 17:54:52 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-17 17:54:52 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 17:54:52 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 17:54:53 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 17:54:57 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-17 17:55:29 INFO  MIP_ChangeCoverLevelPage:84 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-17 17:55:30 INFO  MIP_CustomerManagementPage:153 - Clicking on Save Changes button
+2018-07-17 17:55:36 INFO  MIP_CustomerManagementPage:155 - Clicked on Save Changes button
+2018-07-17 17:55:41 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-17 17:55:41 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 17:55:41 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 17:55:42 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 17:55:44 INFO  MIP_ChangeCoverLevelPage:107 - Getting Bima Accident protection cover level info in Update Cover Level Page
+2018-07-17 17:55:56 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-17 17:57:05 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 17:57:31 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 17:57:35 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 17:57:35 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 17:57:37 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 17:57:37 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 17:57:41 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 17:57:41 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 17:57:41 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 17:57:42 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 17:57:44 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 17:57:44 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 17:57:44 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 17:57:44 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 17:57:44 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 17:57:44 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 17:57:45 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 17:57:46 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-17 17:57:46 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 17:57:46 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 17:57:46 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 17:57:49 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-17 17:58:02 INFO  MIP_ChangeCoverLevelPage:84 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-17 17:58:02 INFO  MIP_CustomerManagementPage:153 - Clicking on Save Changes button
+2018-07-17 17:58:08 INFO  MIP_CustomerManagementPage:155 - Clicked on Save Changes button
+2018-07-17 17:58:13 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-17 17:58:13 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 17:58:13 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 17:58:13 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 17:58:13 INFO  MIP_ChangeCoverLevelPage:107 - Getting Bima Accident protection cover level info in Update Cover Level Page
+2018-07-17 17:58:39 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-17 17:59:52 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 18:00:38 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 18:00:42 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 18:00:42 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 18:00:44 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 18:00:44 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 18:00:48 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 18:00:48 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 18:00:48 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 18:00:50 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 18:00:51 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 18:00:51 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 18:00:51 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 18:00:52 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 18:00:52 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 18:00:52 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 18:00:52 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 18:00:53 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-17 18:00:53 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 18:00:53 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 18:00:54 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 18:01:31 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-17 18:01:49 INFO  MIP_ChangeCoverLevelPage:84 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-17 18:01:50 INFO  MIP_CustomerManagementPage:153 - Clicking on Save Changes button
+2018-07-17 18:01:55 INFO  MIP_CustomerManagementPage:155 - Clicked on Save Changes button
+2018-07-17 18:02:00 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-17 18:02:00 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-17 18:02:00 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-17 18:02:00 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-17 18:02:00 INFO  MIP_ChangeCoverLevelPage:107 - Getting Bima Accident protection cover level info in Update Cover Level Page
+2018-07-17 18:02:07 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-17 18:03:40 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-17 18:04:06 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-17 18:04:09 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-17 18:04:09 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-17 18:04:11 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-17 18:04:11 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-17 18:04:16 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-17 18:04:16 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-17 18:04:16 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-17 18:04:17 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-17 18:04:18 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-17 18:04:18 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-17 18:04:18 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-17 18:04:19 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-17 18:04:19 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-17 18:04:45 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-18 09:11:59 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-18 09:12:27 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-18 09:12:30 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-18 09:12:30 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-18 09:12:32 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-18 09:12:32 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-18 09:12:35 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-18 09:12:35 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-18 09:12:35 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-18 09:12:36 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-18 09:12:38 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-18 09:12:38 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-18 09:12:38 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 09:12:38 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 09:12:38 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-18 09:12:44 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 09:12:44 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 09:12:49 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-18 09:12:49 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-18 09:12:49 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-18 09:12:49 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-18 09:13:13 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-18 09:13:25 INFO  MIP_ChangeCoverLevelPage:84 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-18 09:13:26 INFO  MIP_CustomerManagementPage:153 - Clicking on Save Changes button
+2018-07-18 09:13:32 INFO  MIP_CustomerManagementPage:155 - Clicked on Save Changes button
+2018-07-18 09:13:46 INFO  MIP_CustomerManagementPage:50 - Entering msisdn value 03035454554
+2018-07-18 09:13:46 INFO  MIP_CustomerManagementPage:61 - Entered msisdn value
+2018-07-18 09:13:47 INFO  MIP_CustomerManagementPage:65 - clicking on search Icon
+2018-07-18 09:13:47 INFO  MIP_CustomerManagementPage:67 - Clicked on Search Icon
+2018-07-18 09:13:48 INFO  MIP_ChangeCoverLevelPage:107 - Getting Bima Accident protection cover level info in Update Cover Level Page
+2018-07-18 09:14:03 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-18 10:33:52 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-18 10:34:21 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-18 10:34:24 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-18 10:34:24 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-18 10:34:29 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-18 10:34:29 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-18 10:34:44 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-18 10:34:44 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-18 10:34:44 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-18 10:34:45 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-18 10:34:46 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-18 10:34:46 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-18 10:34:46 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:34:47 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:34:47 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-18 10:35:26 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:35:26 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:35:32 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03204084690
+2018-07-18 10:35:32 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 10:35:35 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 10:35:35 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 10:35:57 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-18 10:36:10 INFO  MIP_ChangeCoverLevelPage:84 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-18 10:36:11 INFO  MIP_CustomerManagementPage:154 - Clicking on Save Changes button
+2018-07-18 10:36:16 INFO  MIP_CustomerManagementPage:156 - Clicked on Save Changes button
+2018-07-18 10:36:25 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03204084690
+2018-07-18 10:36:25 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 10:36:26 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 10:36:26 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 10:36:28 INFO  MIP_ChangeCoverLevelPage:107 - Getting Bima Accident protection cover level info in Update Cover Level Page
+2018-07-18 10:37:20 INFO  MIP_DeRegisterCustomer_Queries:80 - Getting Customer Confirmation Status
+2018-07-18 10:37:53 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-18 10:38:17 INFO  MIP_UpdateCoverLevel_Queries:46 - Executing checkRecordExistAfterDereg query
+2018-07-18 10:38:24 INFO  MIP_UpdateCoverLevel_Queries:74 - Executing the getupdateCoverLevelForConfirmedCustomer queries
+2018-07-18 10:38:27 INFO  MIP_ChangeCoverLevel_Test:1153 - New Offer Level: In Offer_Subscription=PKR 400000 In Update Cover Level=400000.00
+2018-07-18 10:38:32 INFO  MIP_ChangeCoverLevelPage:107 - Getting Bima Accident protection cover level info in Update Cover Level Page
+2018-07-18 10:38:42 INFO  MIP_ChangeCoverLevel_Test:1160 - Current Cover Level After Cover Change in Change Cover Level Page: In Dashboard before update cover level= 200000 Cover Level after update cover level= 200000
+2018-07-18 10:38:58 INFO  MIP_ScreenShots:20 - Taking screen shot
+2018-07-18 10:38:59 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:38:59 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:39:14 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-18 10:39:15 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-18 10:42:39 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-18 10:43:05 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-18 10:43:08 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-18 10:43:08 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-18 10:43:10 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-18 10:43:10 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-18 10:43:16 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-18 10:43:16 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-18 10:43:16 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-18 10:43:17 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-18 10:43:18 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-18 10:43:18 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-18 10:43:18 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:43:19 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:43:19 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-18 10:43:31 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:43:31 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:43:31 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03204084690
+2018-07-18 10:43:31 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 10:43:31 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 10:43:32 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 10:44:02 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-18 10:44:02 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-18 10:45:30 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-18 10:45:39 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-18 10:45:42 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-18 10:45:42 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-18 10:45:43 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-18 10:45:43 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-18 10:45:46 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-18 10:45:46 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-18 10:45:46 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-18 10:45:47 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-18 10:45:48 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-18 10:45:48 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-18 10:45:48 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:45:49 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:45:49 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-18 10:45:49 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:45:49 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:45:50 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03204084690
+2018-07-18 10:45:50 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 10:45:50 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 10:45:50 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 10:45:58 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-18 10:45:59 INFO  MIP_ChangeCoverLevelPage:107 - Getting Bima Accident protection cover level info in Update Cover Level Page
+2018-07-18 10:45:59 INFO  MIP_ChangeCoverLevelPage:84 - Updating Accident Cover Level in Change Cover Level Page
+2018-07-18 10:45:59 INFO  MIP_CustomerManagementPage:154 - Clicking on Save Changes button
+2018-07-18 10:46:04 INFO  MIP_CustomerManagementPage:156 - Clicked on Save Changes button
+2018-07-18 10:46:08 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03204084690
+2018-07-18 10:46:08 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 10:46:08 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 10:46:08 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 10:46:08 INFO  MIP_DeRegisterCustomer_Queries:80 - Getting Customer Confirmation Status
+2018-07-18 10:46:09 INFO  MIP_UpdateCoverLevel_Queries:25 - Executing the getOfferDetails queries
+2018-07-18 10:46:10 INFO  MIP_UpdateCoverLevel_Queries:46 - Executing checkRecordExistAfterDereg query
+2018-07-18 10:46:10 INFO  MIP_UpdateCoverLevel_Queries:74 - Executing the getupdateCoverLevelForConfirmedCustomer queries
+2018-07-18 10:46:11 INFO  MIP_ChangeCoverLevel_Test:1153 - New Offer Level: In Offer_Subscription=PKR 400000 In Update Cover Level=400000.00
+2018-07-18 10:46:11 INFO  MIP_ChangeCoverLevelPage:107 - Getting Bima Accident protection cover level info in Update Cover Level Page
+2018-07-18 10:46:11 INFO  MIP_ChangeCoverLevel_Test:1160 - Current Cover Level After Cover Change in Change Cover Level Page: In Dashboard before update cover level= 200000 Cover Level after update cover level= 200000
+2018-07-18 10:46:11 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-18 10:46:11 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-18 10:50:04 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-18 10:50:33 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-18 10:50:37 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-18 10:50:37 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-18 10:50:39 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-18 10:50:39 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-18 10:50:44 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-18 10:50:44 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-18 10:50:44 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-18 10:50:45 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-18 10:50:47 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-18 10:50:47 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-18 10:50:47 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:50:48 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:50:48 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-18 10:50:48 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:50:51 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:50:51 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03204084690
+2018-07-18 10:50:51 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 10:50:51 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 10:50:53 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 10:51:23 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 10:51:23 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 10:51:23 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03020066532
+2018-07-18 10:51:23 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 10:51:23 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 10:51:23 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 10:51:54 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-18 10:51:54 INFO  MIP_BrowserFactory:55 - browser closed
+2018-07-18 11:32:47 INFO  MIP_BrowserFactory:31 - Opening the browser
+2018-07-18 11:33:13 INFO  MIP_BrowserFactory:45 - firefox opened 
+2018-07-18 11:33:16 INFO  MIP_ReadPropertyFile:18 - Reading the property file
+2018-07-18 11:33:16 INFO  MIP_DataBaseConnection:20 - Connecting to Database
+2018-07-18 11:33:18 INFO  MIP_DataBaseConnection:35 - Connecting to Database is successfull
+2018-07-18 11:33:18 INFO  MIP_LaunchApplication:16 - Launching the application
+2018-07-18 11:33:58 INFO  MIP_LaunchApplication:21 - Application Launched successfuly
+2018-07-18 11:33:58 INFO  MIP_LoginPage:39 - Entering the userName
+2018-07-18 11:33:58 INFO  MIP_LoginPage:41 - Entering the password
+2018-07-18 11:33:59 INFO  MIP_LoginPage:44 - Clicked on Submit button
+2018-07-18 11:34:02 INFO  MIP_HomePage:73 - Clicking on Menu Customer Management
+2018-07-18 11:34:02 INFO  MIP_HomePage:79 - Clicked on Menu Customer Management
+2018-07-18 11:34:02 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 11:34:03 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 11:34:03 INFO  MIP_XLOperation:24 - Reading the XL data
+2018-07-18 11:34:03 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 11:34:04 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 11:34:04 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03204084690
+2018-07-18 11:34:04 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 11:34:04 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 11:34:05 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 11:34:36 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 11:34:36 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 11:34:36 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03020066532
+2018-07-18 11:34:36 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 11:34:36 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 11:34:36 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 11:35:06 INFO  MIP_HomePage:73 - Clicking on Menu Change Cover Level
+2018-07-18 11:35:06 INFO  MIP_HomePage:79 - Clicked on Menu Change Cover Level
+2018-07-18 11:35:07 INFO  MIP_CustomerManagementPage:51 - Entering msisdn value 03020006533
+2018-07-18 11:35:07 INFO  MIP_CustomerManagementPage:62 - Entered msisdn value
+2018-07-18 11:35:07 INFO  MIP_CustomerManagementPage:66 - clicking on search Icon
+2018-07-18 11:35:07 INFO  MIP_CustomerManagementPage:68 - Clicked on Search Icon
+2018-07-18 11:35:37 INFO  MIP_BrowserFactory:53 - Closing the browser
+2018-07-18 11:35:37 INFO  MIP_BrowserFactory:55 - browser closed
